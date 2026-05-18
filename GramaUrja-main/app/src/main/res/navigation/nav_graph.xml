@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.gramaUrja.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_zone"
+            app:destination="@id/zoneSelectionFragment" />
+        <action
+            android:id="@+id/action_home_to_timer"
+            app:destination="@id/pumpTimerFragment" />
+        <action
+            android:id="@+id/action_home_to_history"
+            app:destination="@id/historyFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/zoneSelectionFragment"
+        android:name="com.gramaUrja.ui.zone.ZoneSelectionFragment"
+        android:label="Select Zone"
+        tools:layout="@layout/fragment_zone_selection" />
+
+    <fragment
+        android:id="@+id/pumpTimerFragment"
+        android:name="com.gramaUrja.ui.timer.PumpTimerFragment"
+        android:label="Pump Timer"
+        tools:layout="@layout/fragment_pump_timer" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.gramaUrja.ui.history.HistoryFragment"
+        android:label="Power History"
+        tools:layout="@layout/fragment_history" />
+
+</navigation>

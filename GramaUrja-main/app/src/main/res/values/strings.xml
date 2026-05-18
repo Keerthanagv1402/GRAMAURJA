@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Grama-Urja</string>
+
+    <!-- Home -->
+    <string name="power_on">⚡ POWER ON</string>
+    <string name="power_off">✖ POWER OFF</string>
+    <string name="confirm_status">✓ Confirm Current Status</string>
+    <string name="change_zone">Change</string>
+    <string name="no_zone_selected">Tap to select your zone</string>
+    <string name="view_history">📋 View Power History →</string>
+    <string name="status_waiting">Waiting for data…</string>
+    <string name="power_available">Power is available in your zone</string>
+    <string name="power_unavailable">Power is not available in your zone</string>
+    <string name="status_unknown">Status not yet reported</string>
+    <string name="report_status_label">REPORT STATUS</string>
+    <string name="confirmed_by_farmers">Confirmed by %d farmer(s)</string>
+    <string name="no_data_yet">No data yet</string>
+    <string name="pump_timer">Pump Timer</string>
+    <string name="desc_power_status">Power status</string>
+    <string name="desc_report_on">Report power is on</string>
+    <string name="desc_report_off">Report power is off</string>
+    <string name="desc_open_timer">Open pump timer</string>
+
+    <!-- Freshness -->
+    <string name="freshness_just_now">Just now</string>
+    <string name="freshness_mins">Updated %d min ago</string>
+    <string name="freshness_hours">Updated %d hr ago</string>
+    <string name="freshness_days">Updated %d day(s) ago</string>
+    <string name="stale_warning">Status may be outdated — tap to confirm</string>
+
+    <!-- Zone Selection -->
+    <string name="select_zone_title">Select Your Zone</string>
+    <string name="select_zone_hint">Choose the transformer zone nearest to your field</string>
+    <string name="load_demo_zones">Load Demo Zones</string>
+    <string name="desc_zone_item">Select zone %s</string>
+    <string name="zone_detail_format">%1$s • %2$s</string>
+
+    <!-- Pump Timer -->
+    <string name="pump_timer_title">Pump Timer Calculator</string>
+    <string name="pump_timer_subtitle">Select your crop and field area to get the recommended irrigation time.</string>
+    <string name="crop_type_label">CROP TYPE</string>
+    <string name="field_area_label">FIELD AREA (ACRES)</string>
+    <string name="area_minus_desc">Decrease area</string>
+    <string name="area_plus_desc">Increase area</string>
+    <string name="recommended_time_format">Recommended: %s</string>
+    <string name="start_timer">▶  START</string>
+    <string name="stop_timer">■  STOP</string>
+    <string name="timer_complete_title">Pump Timer Complete!</string>
+    <string name="timer_complete_body">Your irrigation cycle has finished. Turn off the pump.</string>
+
+    <!-- History -->
+    <string name="history_title">Power History (Last 30 Updates)</string>
+    <string name="reporter_label">Reporter: %s</string>
+
+    <!-- Notifications -->
+    <string name="notif_power_restored_title">Power Restored in %s!</string>
+    <string name="notif_power_restored_body">Reported by community • %s</string>
+
+    <!-- Onboarding -->
+    <string name="onboard_next">Next</string>
+    <string name="onboard_skip">Skip</string>
+    <string name="onboard_get_started">Get Started</string>
+    <string name="onboard_illustration_desc">Onboarding illustration</string>
+
+    <string name="onboard_title_1">What is a Transformer Zone?</string>
+    <string name="onboard_desc_1">A transformer zone is a group of farms that share the same electricity supply line. When one farm loses power, all farms in the zone lose power too.</string>
+
+    <string name="onboard_title_2">Report Power Status</string>
+    <string name="onboard_desc_2">When you see power has returned to your field, tap \'POWER ON\'. This instantly alerts all other farmers in your zone. Together, you save hours of wasted trips!</string>
+
+    <string name="onboard_title_3">Get Instant Alerts</string>
+    <string name="onboard_desc_3">You will receive a notification the moment any farmer in your zone reports that power is restored. No more walking to the field to check!</string>
+
+    <!-- Errors -->
+    <string name="error_update_failed">Failed to update. Check connection.</string>
+    <string name="error_confirm_failed">Could not confirm. Try again.</string>
+    <string name="offline_banner">OFFLINE — Showing last known status</string>
+
+    <!-- FGS Justification -->
+    <string name="fgs_justification">Keeps pump irrigation timer running when screen is locked</string>
+
+    <!-- Kannada translations (ಕನ್ನಡ) -->
+    <!-- These would be in values-kn/strings.xml in production -->
+    <string name="app_name_kn">ಗ್ರಾಮ-ಉರ್ಜಾ</string>
+</resources>

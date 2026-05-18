@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.GramaUrja" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/blue_dark</item>
+        <item name="colorPrimaryDark">@color/navy</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/navy</item>
+        <item name="android:navigationBarColor">@color/navy</item>
+        <item name="actionBarStyle">@style/GramaUrjaActionBar</item>
+    </style>
+
+    <style name="Theme.GramaUrja.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="GramaUrjaActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/navy</item>
+        <item name="titleTextStyle">@style/GramaUrjaActionBarTitle</item>
+    </style>
+
+    <style name="GramaUrjaActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Large status text for Power ON / OFF card -->
+    <style name="StatusText">
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <!-- Freshness label -->
+    <style name="FreshnessText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+</resources>
